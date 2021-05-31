@@ -29,9 +29,15 @@ public class Primality {
        }
        
        if(f_count==2){
- 	      System.out.println(userInput+" is composite number and factors are ->");
+ 	      System.out.print(userInput+" is composite number and factors are -> ");
 	      //lets print the factors of the number
-	      
+	       for (int i=1; i<=userInput; i++){
+          
+	      if (userInput%i==0){
+	          System.out.print(i);
+		  System.out.print(",");
+	         }
+             }
 	      
 	      
  	     }else {
