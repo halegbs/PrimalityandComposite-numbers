@@ -5,11 +5,13 @@ public class Primality {
 	public static void main(String[] args) {
 		// lets get a scanner class
     int userInput;
-    Scanner scannObj = new Scanner (system.in);
-    System.out.printLn("This is an application to check whether a number is prime or composite");
-    System.out.printLn("Enter any random whole number, greater than 1");
-    userInput= scannObj.nextInt(in);
+    Scanner scannObj = new Scanner (System.in);
+    System.out.println("This is an application to check whether a number is prime or composite.");
+    System.out.println();
+    System.out.println("Enter any random whole number, greater than 1");
+    userInput= scannObj.nextInt();
   
+   // System.out.println("You entered :" +  userInput );
 	}
 
 }
