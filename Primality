@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Primality {
+
+	public static void main(String[] args) {
+		// lets get a scanner class
+    int userInput;
+    Scanner scannObj = new Scanner (system.in);
+    System.out.printLn("This is an application to check whether a number is prime or composite");
+    System.out.printLn("Enter any random whole number, greater than 1");
+    userInput= scannObj.nextInt(in);
+  
+	}
+
+}
