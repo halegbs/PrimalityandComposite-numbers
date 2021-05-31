@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Primality {
@@ -15,7 +16,7 @@ public class Primality {
    // System.out.println("You entered :" +  userInput );
    //lets do certain checks on user input
      if(userInput<=1){
-     System.out.println("You entered an Invalid number, follow the instruction above.");
+     System.out.println("You entered an Invalid number, re-start application and  follow the instruction above.");
        }
        else {
        for (int i=1; i<=userInput; i++){
@@ -24,10 +25,17 @@ public class Primality {
 	      f_count++;
 	  }
        
-       	   if(f_count==2){
-	    System.out.println("Its a prime number");
-	   }
+       	   
        }
+       
+       if(f_count==2){
+ 	      System.out.println(userInput+" is composite number and factors are ->");
+	      
+	      
+	      
+ 	     }else {
+ 	    	 System.out.println(userInput + " is prime number and factors are -> "); 
+ 	     }
        
        
        
@@ -38,3 +46,4 @@ public class Primality {
 	}
 
 }
+
